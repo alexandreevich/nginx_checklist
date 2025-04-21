@@ -18,7 +18,7 @@
 |💻 SSL/TLS Termination| 	Шифрует/расшифровывает трафик, backend работает с чистым HTTP.|
 |⚡️ Сжатие данных |	Автоматически сжимает ответы с помощью Gzip.|
 
-Пример конфига : [nginx.conf](https://github.com/alexandreevich/nginx_checklist/new/main)
+Пример конфига : [nginx.conf](https://github.com/alexandreevich/nginx_checklist/blob/main/nginx.conf)
 - proxy_pass — указывает на backend.
 - proxy_set_header — передает заголовки клиентского IP и домена дальше.
 
